@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Recetas.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace Recetas
         {
             InitializeComponent();
 
-            MainPage = new Recetas.MainPage();
+            MainPage = new NavigationPage(new Menu());
         }
 
         protected override void OnStart()

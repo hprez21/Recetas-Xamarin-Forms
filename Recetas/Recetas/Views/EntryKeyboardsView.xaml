@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TiposTecladoEntry"
+             x:Class="Recetas.Views.EntryKeyboardsView">
+    <StackLayout>
+        <Label Text="Tipos de Teclados: " HorizontalOptions="Center" FontSize="Large"/>
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Default: "/>
+                <Entry Keyboard="Default" Placeholder="Teclado Default"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Text: "/>
+                <Entry Keyboard="Text" Placeholder="Teclado Modo Texto"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Chat: "/>
+                <Entry Keyboard="Chat" Placeholder="Teclado Modo Chat"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Url: "/>
+                <Entry Keyboard="Url" Placeholder="Teclado Modo Url"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Email: "/>
+                <Entry Keyboard="Email" Placeholder="Teclado Modo Email"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Telephone: "/>
+                <Entry Keyboard="Telephone" Placeholder="Teclado Modo Teléfono"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Numeric: "/>
+                <Entry Keyboard="Numeric" Placeholder="Teclado Modo Numérico"/>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
