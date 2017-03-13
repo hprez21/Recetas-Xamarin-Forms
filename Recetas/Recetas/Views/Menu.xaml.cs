@@ -23,5 +23,10 @@ namespace Recetas.Views
         {
             Navigation.PushAsync(new EntryKeyboardsView());
         }
+
+        private void btnEntryFlags_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EntryKeyboardFlags());
+        }
     }  
 }

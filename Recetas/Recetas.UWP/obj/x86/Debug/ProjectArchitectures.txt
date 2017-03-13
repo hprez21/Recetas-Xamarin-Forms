@@ -1,0 +1,2 @@
+C:\Users\hprez\Documents\GitHub\Recetas-Xamarin-Forms\Recetas\Recetas.UWP\Recetas.UWP.csproj;x86
+C:\Users\hprez\Documents\GitHub\Recetas-Xamarin-Forms\Recetas\Recetas\Recetas.csproj;neutral

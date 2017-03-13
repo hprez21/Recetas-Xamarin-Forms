@@ -23,10 +23,14 @@ namespace Recetas.Views {
         private global::Xamarin.Forms.Button btnEntryTypes;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnEntryFlags;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(Menu));
             btnJavascriptAndCSharp = this.FindByName<global::Xamarin.Forms.Button>("btnJavascriptAndCSharp");
             btnEntryTypes = this.FindByName<global::Xamarin.Forms.Button>("btnEntryTypes");
+            btnEntryFlags = this.FindByName<global::Xamarin.Forms.Button>("btnEntryFlags");
         }
     }
 }

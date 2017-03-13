@@ -39,6 +39,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\EntryKeyboardFlags.cs" />
     <Compile Include="Views\EntryKeyboardsView.xaml.cs">
       <DependentUpon>EntryKeyboardsView.xaml</DependentUpon>
     </Compile>
