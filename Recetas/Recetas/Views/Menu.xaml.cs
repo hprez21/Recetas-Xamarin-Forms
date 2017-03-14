@@ -28,5 +28,10 @@ namespace Recetas.Views
         {
             Navigation.PushAsync(new EntryKeyboardFlags());
         }
+
+        private void btnImageOrientation_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ImageOrientationView());
+        }
     }  
 }

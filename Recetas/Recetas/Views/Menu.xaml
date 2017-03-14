@@ -8,6 +8,7 @@
             <Button x:Name="btnJavascriptAndCSharp" Text="Javascript and C#" Clicked="btnJavascriptAndCSharp_Clicked"></Button>
             <Button x:Name="btnEntryTypes" Text="Tipos de Teclado" Clicked="btnEntryTypes_Clicked"></Button>
             <Button x:Name="btnEntryFlags" Text="Entry Flags" Clicked="btnEntryFlags_Clicked"></Button>
+            <Button x:Name="btnImageOrientation" Text="Imagen - Detectando cambio de orientación" Clicked="btnImageOrientation_Clicked"></Button>
         </StackLayout>
   </ScrollView>
 </ContentPage>
