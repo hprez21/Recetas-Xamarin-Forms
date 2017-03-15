@@ -13,8 +13,11 @@ namespace Recetas
         public App()
         {
             InitializeComponent();
-
-            MainPage = new NavigationPage(new Menu());
+            var navigationPage = new NavigationPage(new Menu());
+            navigationPage.BackgroundColor = Color.Black;
+            navigationPage.BarBackgroundColor = Color.Navy;
+            navigationPage.BarTextColor = Color.Gray;            
+            MainPage = navigationPage;
         }
 
         protected override void OnStart()
