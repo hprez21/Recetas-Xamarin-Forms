@@ -14,9 +14,9 @@ namespace Recetas
         {
             InitializeComponent();
             var navigationPage = new NavigationPage(new Menu());
-            navigationPage.BackgroundColor = Color.Black;
+            navigationPage.BackgroundColor = Color.Gray;
             navigationPage.BarBackgroundColor = Color.Navy;
-            navigationPage.BarTextColor = Color.Gray;            
+            navigationPage.BarTextColor = Color.Olive;            
             MainPage = navigationPage;
         }
 

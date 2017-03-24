@@ -33,5 +33,10 @@ namespace Recetas.Views
         {
             Navigation.PushAsync(new ImageOrientationView());
         }
+
+        private void btnToolBarItems_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ToolBarItemsView());
+        }
     }  
 }

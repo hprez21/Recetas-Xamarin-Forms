@@ -25,11 +25,11 @@ namespace Recetas.Views
             //Código equivalente con if:
             //if(Height > Width)
             //{
-            //    imgBackground.Source = "Horizontal.png";
+            //    imgBackground.Source = "Vertical.png";
             //}
             //else
             //{
-            //    imgBackground.Source = "Vertical.png";
+            //    imgBackground.Source = "Horizontal.png";
             //}
         }
     }
